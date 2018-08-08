@@ -1,14 +1,14 @@
 
 
 ## 1.NSKernAttributeName:
-10 调整字句 kerning 字句调整
+调整字距
  
 ## 2.NSFontAttributeName :
 [UIFont systemFontOfSize:_fontSize] 设置字体
  
 
 ## 3.NSForegroundColorAttributeName
-:[UIColor redColor] 设置文字颜色
+[UIColor redColor] 设置文字颜色
  
 
 ## 4.NSParagraphStyleAttributeName :
@@ -27,17 +27,22 @@ NSStrokeWidthAttributeName这个属性所对应的值是一个 NSNumber 对象(�
 
 同时设置了空心的两个属性，并且NSStrokeWidthAttributeName属性设置为整数，文字前景色就无效果了
 
-## 8. NSStrikethroughStyleAttributeName 添加删除线，strikethrough删除线
+## 8. NSStrikethroughStyleAttributeName 
+添加删除线，strikethrough删除线
 
-## 9. NSUnderlineStyleAttributeName 添加下划线
+## 9. NSUnderlineStyleAttributeName 
+添加下划线
 
-## 10. NSShadowAttributeName 设置阴影，单独设置不好使，必须和其他属性搭配才好使
+## 10. NSShadowAttributeName 
+设置阴影，单独设置不好使，必须和其他属性搭配才好使
 
 ## 11.NSVerticalGlyphFormAttributeName
 该属性所对应的值是一个 NSNumber 对象(整数)。0 表示横排文本。1 表示竖排文本。在 iOS 中，总是使用横排文本，0 以外的值都未定义。
 
-## 12. NSObliquenessAttributeName设置字体倾斜。
+## 12. NSObliquenessAttributeName
+设置字体倾斜。
 
-## 13. NSExpansionAttributeName 设置文本扁平化
+## 13. NSExpansionAttributeName 
+设置文本扁平化
 
 参考：http://www.cnblogs.com/qingche/p/3574995.html
