@@ -4,12 +4,12 @@
 --- 
 
 ````
-#program mark -[注释内容]
+#pragma mark -[注释内容]
 说明：用于注释内容
-#program mark 是每个ios程序员都必须会用的技巧，通过#program mark 把代码分为个个部分，良好的注释是好代码的开始
+#pragma mark 是每个ios程序员都必须会用的技巧，通过#pragma mark 把代码分为个个部分，良好的注释是好代码的开始
 ````
 
-## 2：取消xcode编译器内对于启用方法的警告
+## 2：取消xcode编译器内对于弃用方法的警告
 --- 
  
 ````
@@ -20,11 +20,11 @@
 
 ````
 
-##  3：取消对未使用变量的警告，使用法师和2相同，必须成对出现#pragma clang 
+##  3：取消对未使用变量的警告，使用方式和2相同，必须成对出现 
 --- 
 
 ````
-diagnostic ---
+#pragma clang diagnostic ---
 #pragma clang diagnostic ignored "-Wunused-variable"   
 
 ====================
