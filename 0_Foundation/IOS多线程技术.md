@@ -6,7 +6,7 @@
 /*
  *使用performSelector 的多线程
  *优点：简单
- *缺点：没有串行并线队列，不能实现高级线程调度
+ *缺点：没有串行并行队列，不能实现高级线程调度
  */
  
 -(void)performSelectorFunction{
@@ -37,7 +37,7 @@
 /*
  *使用NSThread 的多线程
  *优点：简单
- *缺点：没有串行并线队列，不能实现高级线程调度,和performSelector是一样的。
+ *缺点：没有串行并行队列，不能实现高级线程调度,和performSelector是一样的。
  */
 
 -(void)NSThreadFunction{
@@ -65,7 +65,7 @@
 
 ````objc
 /*
- *使反面教材，他不是多线程，他只是定时执行任务
+ *反面教材，他不是多线程，他只是定时执行任务
  */
 
 -(void)NSTimerFunction{
@@ -100,10 +100,9 @@
 - dispatch_group_async
 - dispatch_barrier_async
 - dispatch_apply
-- dispatch_suspend，dispatch_resume
-- dispatch_sync
-- dispatch_sync
-- dispatch_sync
+- dispatch_suspend，
+- dispatch_resume
+- dispatch_apply
 
 
 ````objc
