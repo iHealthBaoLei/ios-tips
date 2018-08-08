@@ -124,7 +124,7 @@ void test4(){
     NSLog(@"%@",date6); //结果：2014-02-14 03:07:16 +0000
 
 
-````objc
+````
 
 
 ##  字符串
@@ -534,6 +534,7 @@ typedef struct {
     int day;
 } Date;
 ##使用:
+````
 
 ##  选项 NS_OPTIONS
 
@@ -557,8 +558,6 @@ if ( option & MyOption3 ){ //0011 & 0100 = 0000
 }else{
      //不包含MyOption3
 }
-
-````
 
 //增加选项:
 option = option | MyOption4;//0011 | 1000 = 1011, 11
